@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    scroll-behavior: smoth;
+}
+body{
+
+}
+nav{
+    background-color: teal;
+    padding: 8px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.jahangir{
+    clear: both;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 13px 15px;
+}
+.menu ul li a{
+    color: white
+}
+
+/* Navigataion Part css end */
+
+/* banner Part css start */
+
+#banner{
+    background: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_overlay{
+    padding: 120px 0;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+.banner_con h1{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+.banner_con h4{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 40px;
+}
+.banner_con a{
+    padding: 13px 30px;
+    background-color: teal;
+    color: white;
+    border-radius: 30px;
+}
+/* banner Part css end */
+
+/* about part scc start */
+.about_head h4{
+    text-align: center;
+    margin: 40px 0;
+    padding: 10px 0;
+    background-color: teal;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.about_image{
+    width: 48%;
+    float: left;
+    margin-right: 20px;
+}
+.about_image img{
+    width: 100%;
+    float: left;
+}
+.about_content{
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+.about_content h4{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.about_content p{
+    line-height: 25px;
+}
+
+/* gallery_image part css start */
+.gallery_image{
+    width: 32%;
+    float: left;
+    position: relative;
+}
+.gallery_image img{
+    width: 100%;
+}
+.gallery_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.gallery_overlay a{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 21px;
+}
+.gallery_image:hover .gallery_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.gly_middle{
+    margin: 0 2%;
+}
+/* gallery part css end */
+
+/* footer part css start */
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+.footer_con{
+    text-align: center;
+}
+.footer_con p{
+    font-size: 25px;
+}
+/* footer part css end */
+
+.content{
+    text-align: justify;
+}
+.content h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+    font-family: monospace;
+}
